@@ -1,0 +1,25 @@
+# CodeAlpha Task 1 - Network Sniffer
+
+## Description
+A Python-based network sniffer developed using Scapy for the CodeAlpha Cyber Security Internship.
+
+## Features
+- Captures IP packets
+- Displays source and destination IP addresses
+- Identifies TCP, UDP and ICMP protocols
+- Displays source and destination ports
+- Displays packet payload size
+
+## Technologies
+- Python
+- Scapy
+- Kali Linux
+
+## How to Run
+sudo ./venv/bin/python network_sniffer.py
+
+## Testing
+The sniffer was tested using authorized traffic generated from the local machine using ping and HTTPS requests.
+
+## Author
+Santhosh
